@@ -1,6 +1,6 @@
 function renderTime(){
 var currentTime = new Date();
-var diem = "Am";
+var diem = "AM";
 var h = currentTime.getHours();
 var m = currentTime.getMinutes();
 var s = currentTime.getSeconds();
@@ -18,7 +18,7 @@ if(h<10){
 if(m<10){
     m = "0"+m;
 }
-if(h<10){
+if(s<10){
     s = "0"+s;
 }
 
