@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Smart Mirror</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <title>Smart Mirror</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" href="mainStyle.css">
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCG8JbrNJh7XMqC7j-RXINs67qlECPtawU"></script>
     <script src="MapSrc.js"></script>
     <script src="Time.js"></script>
 </head>
 
-    <body onload="renderTime()">
+<body onload="renderTime()">
 
     <h1>Smart Mirror</h1>
+    <div id="clock">
 
-    <div id="googleMap" style="width:500px;height:400px;">
+    </div>
+    <div id="googleMap" >
 
     </div>
 
@@ -22,4 +25,5 @@
     </div>
 
 </body>
+
 </html>
