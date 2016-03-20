@@ -7,3 +7,7 @@ body
     background-color: #3e3e5b;
     color: white;
 }
+div
+{
+    box-shadow: 0,0,0,10px;
+}
