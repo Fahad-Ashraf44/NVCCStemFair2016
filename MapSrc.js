@@ -298,6 +298,10 @@
 
             map.mapTypes.set('usroadatlas', usRoadMapType);
             map.setMapTypeId('usroadatlas');
+
+            //two lines to add traffic layer
+            var trafficLayer = new google.maps.TrafficLayer();
+            trafficLayer.setMap(map);
         }
 
        google.maps.event.addDomListener(window, 'load', initialize);
