@@ -5,21 +5,34 @@
     <title>Smart Mirror</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" href="mainStyle.css">
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCG8JbrNJh7XMqC7j-RXINs67qlECPtawU"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <!--removed google api key to allow us to share this without concern-->
+
     <script src="/js/MapSrc.js"></script>
     <script src="/js/Time.js"></script>
+    <script src="/js/Weather.js"></script>
+
 </head>
 
 <body onload="renderTime()">
 
     <h1>Smart Mirror</h1>
-    <div id="clock">
 
+    <div class="container">
+        <div id="clock">
+        </div>
     </div>
-    <div id="googleMap" >
 
+    <div class="container">
+        <div id="googleMap" >
+        </div>
     </div>
 
+    <div class="container">
+      <div id="weather">
+
+      </div>
+    </div>
 </body>
 
 </html>

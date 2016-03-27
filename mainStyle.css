@@ -10,13 +10,27 @@ body
 }
 div
 {
-    box-shadow: 0,0,0,10px;
     color: white;
     text-align: center;
+}
 
+#clock
+{
+    font-size: 2em;
 }
 #googleMap
 {
-    width: 500px;
-    height: 500px;
+    width: 30em;
+    height: 30em;
+}
+
+.container
+{
+    margin: 5%;
+    padding: 5%;
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(100,100,100,1)); /*Standard*/
+    border-radius: .25em;
+    border-style: solid;
+    border-width: thin;
+
 }
