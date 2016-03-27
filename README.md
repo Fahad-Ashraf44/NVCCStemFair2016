@@ -1,0 +1,3 @@
+Welcome to our GitHub Page!
+
+This code was written for a program that is intended to run on a rasberry pi. Rather than using a complicated system for compiling our program, we opted to use HTML, CSS and JavaScript to write our program. This allows us to test it in nearly any browser and be confident that it will run almost identically on a completely different platform. The program is intended to be non-CPU intensive. We have only just begun our journey into this project so please be patient with us as we come up with new and exciting features to move this project forward! 
