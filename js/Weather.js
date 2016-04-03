@@ -1,7 +1,7 @@
 
 window.onload = function()
 {
-    document.getElementById('weather').innerHTML = 'weather';
+    document.getElementById('weather').innerHTML = weatherKey.text;
 }
 
 
