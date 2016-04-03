@@ -29,5 +29,5 @@ function renderTime() {
 
     document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + diem; // find clock element and concatenate time
 
-    var t = setTimeout(renderTime, 1000); //keeps the clock moving
+   // var t = setTimeout(renderTime, 1000); //keeps the clock moving
 }
