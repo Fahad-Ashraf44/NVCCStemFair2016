@@ -3,7 +3,6 @@ function renderTime() {
     var diem = "AM";
     var h = currentTime.getHours();
     var m = currentTime.getMinutes();
-    var s = currentTime.getSeconds();
 
     if (h == 0)
         { //if time is 0, its 12
@@ -22,12 +21,9 @@ function renderTime() {
         { //if minute is single digit, add a 0 in front
             m = "0" + m;
         }
-    if (s < 10)
-        { //if second is single digit, add a 0 in front
-            s = "0" + s;
-        }
 
-    document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + diem; // find clock element and concatenate time
 
-   // var t = setTimeout(renderTime, 1000); //keeps the clock moving
+    document.getElementById('clock').innerHTML = h + ":" + m + " " + diem; // find clock element and concatenate time
+
+   var t = setTimeout(renderTime, 1000); //keeps the clock moving
 }

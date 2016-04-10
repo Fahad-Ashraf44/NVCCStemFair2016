@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,400,300);
 
 @font-face
 {
@@ -6,42 +6,73 @@
   src: url(src/Fonts/Homestead/homesteadDisplay.ttf);
   font-weight: bold;
 }
-h1
+
+h5
 {
-    font-size: 5em;
+    padding: 0;
+    margin: 0;
+}
+
+#header
+{
+    font-size: 4em;
     padding-top: 2%;
     font-family: homestead;
     text-align: center;
-    color: whitesmoke;
-}
-body
-{
-    background-color: black;
-    color: white;
-}
-div
-{
-    color: white;
-    text-align: center;
+    color: #fff;
 }
 
-#clock
+body
 {
-    font-size: 2em;
+    background: #171717;
+    color: white;
+    font-family: Raleway;
 }
+
+a
+{
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(100,100,100,1));
+    color: white;
+    padding: 2%;
+    padding-top: .50%;
+    text-align: center;
+    margin-left: 1%;
+    width: 40%;
+
+}
+
 #googleMap
 {
     width: 30em;
     height: 30em;
+    margin: 5%;
 }
 
-.container
+#container
 {
-    margin: 5%;
-    padding: 5%;
-    background: linear-gradient(to top, rgba(255,255,255,0), rgba(100,100,100,1)); /*Standard*/
-    border-radius: .25em;
-    border-style: solid;
-    border-width: thin;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+#calendar
+{
+      color: white;
+    background: rgba(0,0,0,0);
+
+}
+.fc .fc-toolbar>*>:first-child
+{
+    font-size: 1em;
+}
+.fc td, .fc th
+{
+    color: black;
+    background: rgba(0,0,0,0);
 }
