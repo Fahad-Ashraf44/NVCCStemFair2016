@@ -10,10 +10,19 @@ $(document).ready(function() {
         // put your options and callbacks here
         editable: true,
         aspectRatio: 8,
-        height: 60
+        height: 60,
+        header:{
+            left: '',
+            center:'title',
+            right:''
+    }
+        
 
 
 
     })
+    $('#my-today-button').click(function() {
+        $('#calendar').fullCalendar('today');
+    });
 
 });
