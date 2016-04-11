@@ -9,13 +9,49 @@ jQuery(document).ready(function($) {
   dataType : "jsonp", //this is the datatype of our file
   success : function(parsed_json) //on successfully submitting api call run the code below:
       {
-	  var icon_json = '<img src ="src/Icons/Weather/Cloud.svg"/>';
+	  var icon_json = '<img src ="src/Icons/Weather/Sun.svg"/>';
+          if(parsed_json['current_observation']['weather']=="Cloudy"){
+              icon_json = '<img src ="src/Icons/Weather/Cloud.svg"/>';
+          }
+        else if(parsed_json['current_observation']['weather']=="Fog"){
+              icon_json= '<img src ="src/Icons/Weather/Cloud-Fog.svg"/>';
+          }
+        else if(parsed_json['current_observation']['weather']=="Partly Cloudy"){
+              icon_json= '<img src ="src/Icons/Weather/Cloud-Sun.svg"/>';
+          }
+         else if(parsed_json['current_observation']['weather']=="Rain"){
+              icon_json= '<img src ="src/Icons/Weather/Cloud-Rain.svg"/>';
+          }
+         else if(parsed_json['current_observation']['weather']=="Snow"){
+                icon_json= '<img src ="src/Icons/Weather/Cloud-Snow.svg"/>';
+          }
+          else if(parsed_json['current_observation']['weather']=="Thunderstorm"||parsed_json['current_observation']['weather']=="Thunderstorms"){
+                icon_json= '<img src ="src/Icons/Weather/Cloud-Lightning.svg"/>';
+          }
+         else if(parsed_json['current_observation']['weather']=="Overcast"){
+                icon_json= '<img src ="src/Icons/Weather/Cloud.svg"/>';
+          }
+
+          else{
+
+              icon_json= '<img src ="src/Icons/Weather/Cloud-Sun.svg"/>';
+          }
+
+
 	  var temp_json = parsed_json['current_observation']['temp_f'];
 		temp_json += "<span>°F</span>";
+<<<<<<< HEAD
 	  var condition_json = parsed_json['current_observation']['weather']; //Parses current conditions
 	  var real_feel_json = "Feels Like " + parsed_json['current_observation']['feelslike_f'] + "°F"; //Parses how it actually feel
 	  var wind_json = 'Winds are ' + parsed_json['current_observation']['wind_string']; //Winds
 	  var location_json = city + ', ' + state; //Location
+=======
+	  var condition_json = parsed_json['current_observation']['weather'];
+	  var real_feel_json = "Feels Like " + parsed_json['current_observation']['feelslike_f'] + "°F";
+	  var wind_json = 'Winds are ' + parsed_json['current_observation']['wind_string'];
+	  var location_json = city + ', ' + state;
+
+>>>>>>> origin/master
 
 //
   document.getElementById("weather-icon").innerHTML = icon_json;
