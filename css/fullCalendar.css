@@ -30,3 +30,7 @@ th, td, hr, thead, tbody, .fc-row
 {
     border-collapse: separate;
 }
+#calendar > div.fc-view-container > div > table > thead > tr > td > div > table > thead > tr > th.fc-day-header.ui-widget-header
+{
+    font-size: .5em;
+}

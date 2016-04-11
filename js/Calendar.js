@@ -9,8 +9,7 @@ $(document).ready(function() {
     $('#calendar').fullCalendar({
         // put your options and callbacks here
         editable: true,
-        aspectRatio: 8,
-        height: 60,
+        height: 500,
         header:{
             left: '',
             center:'title',
