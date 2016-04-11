@@ -13,16 +13,16 @@ jQuery(document).ready(function($) {
           if(parsed_json['current_observation']['weather']=="Cloudy"){
               icon_json = '<img src ="src/Icons/Weather/Cloud.svg"/>';
           }
-        else if(parsed_json['current_observation']['weather']=="Fog"){
+          else if(parsed_json['current_observation']['weather']=="Fog"){
               icon_json= '<img src ="src/Icons/Weather/Cloud-Fog.svg"/>';
           }
-        else if(parsed_json['current_observation']['weather']=="Partly Cloudy"){
+          else if(parsed_json['current_observation']['weather']=="Partly Cloudy"){
               icon_json= '<img src ="src/Icons/Weather/Cloud-Sun.svg"/>';
           }
-         else if(parsed_json['current_observation']['weather']=="Rain"){
+          else if(parsed_json['current_observation']['weather']=="Rain"){
               icon_json= '<img src ="src/Icons/Weather/Cloud-Rain.svg"/>';
           }
-         else if(parsed_json['current_observation']['weather']=="Snow"){
+          else if(parsed_json['current_observation']['weather']=="Snow"){
                 icon_json= '<img src ="src/Icons/Weather/Cloud-Snow.svg"/>';
           }
           else if(parsed_json['current_observation']['weather']=="Thunderstorm"||parsed_json['current_observation']['weather']=="Thunderstorms"){
