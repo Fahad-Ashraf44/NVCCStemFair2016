@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:200,400,300);
+@import url(https://fonts.googleapis.com/css?family=Muli:200,400,300);
 
 @font-face
 {
@@ -26,7 +26,7 @@ body
 {
     background: black;
     color: white;
-    font-family: Raleway;
+    font-family: Muli;
 }
 
 a

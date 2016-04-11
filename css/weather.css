@@ -1,0 +1,21 @@
+#location
+{
+    border-bottom: 1px solid;
+}
+#observation
+{
+    display: inline-block;
+}
+#temp
+{
+    display: block;
+    padding-top: 16%;
+    float: left;
+}
+#weather-icon
+{
+    float: right;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
