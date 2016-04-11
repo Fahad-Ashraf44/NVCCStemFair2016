@@ -15,7 +15,8 @@ $(document).ready(function() {
             left: '',
             center:'title',
             right:''
-    }
+    },
+        theme: true
         
 
 

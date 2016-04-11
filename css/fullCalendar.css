@@ -1,0 +1,32 @@
+.fc .fc-toolbar>*>:first-child
+{
+    font-size: 1em;
+}
+
+th, td, hr, thead, tbody, .fc-row
+{
+    background: black;
+    color: black;
+}
+
+#calendar > div.fc-view-container > div > table > tbody > tr > td > div > div > div:nth-child(3) > div.fc-content-skeleton > table > thead > tr > td.fc-day-number.fc-sun.fc-today.ui-state-highlight
+{
+    border: 1px solid !important;
+    color: white;
+    text-align: center;
+}
+
+th, td, hr, thead, tbody, .fc-row
+{
+    color: white;
+}
+
+th, td, hr, thead, tbody, .fc-row
+{
+    background: black !important;
+    border-color: black !important;
+}
+.fc table
+{
+    border-collapse: separate;
+}
