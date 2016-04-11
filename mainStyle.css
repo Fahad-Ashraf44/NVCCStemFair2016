@@ -33,6 +33,7 @@ a
 {
 
     display: inline-block;
+    vertical-align: text-top;
     color: white;
     text-decoration: none;
     font-size: 2em;
@@ -63,4 +64,6 @@ a
 {
    padding-top: 10%;
 }
-
+img {
+        -webkit-filter:invert(100%) !important;
+}
