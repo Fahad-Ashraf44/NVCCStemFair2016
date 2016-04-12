@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.print.css">
 
     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+
 
 
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -31,25 +33,25 @@
 
 <body onload="renderTime()">
 
-    <h1 id="header">Smart Mirror</h1>
+    <h1 id="header" class="animated fadeIn">Smart Mirror</h1>
 
 
-     <div id="container">
+    <div id="container">
 
-    <a id="Time" href="#">
+    <a id="Time" href="#"class="animated fadeInUp">
     <i id="clock"></i>
     <div id="calendar">
     </div>
     </a>
 
 
-    <a id="Wunderground" href="#">
-    <div id="temp"></div>
-    <div id="weather-icon"></div>
-    <div id="condition"></div>
-    <div id="real-feel"></div>
-    <div id="wind"></div>
-    <div id="location"></div>
+    <a id="Wunderground" href="#" class="animated fadeInUp">
+    <div id="location" class="weather animated fadeIn"></div>
+    <div id="weather-icon" class="weather animated fadeIn"></div>
+    <div id="temp"class="weather animated fadeIn"></div>
+   <!-- <div id="real-feel"></div> Having the weather twice seems redundant, maybe take one of the two out. -->
+    <div id="condition" class="weather animated fadeIn"></div>
+    <div id="wind" class="weather animated fadeIn"></div>
     </a>
 
     </div>

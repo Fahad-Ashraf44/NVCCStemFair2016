@@ -1,6 +1,10 @@
 #location
 {
+    text-align: left;
     border-bottom: 1px solid;
+    padding-left: 0;
+    margin-left: 0;
+    width: 50%;
 }
 #observation
 {
@@ -15,7 +19,7 @@
 #weather-icon
 {
     float: right;
-    display: block;
-    width: 150px;
-    height: 150px;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
 }

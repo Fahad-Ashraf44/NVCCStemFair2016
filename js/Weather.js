@@ -57,7 +57,7 @@ jQuery(document).ready(function($) {
   document.getElementById("weather-icon").innerHTML = icon_json;
   document.getElementById("temp").innerHTML = temp_json;
   document.getElementById("condition").innerHTML = condition_json;
-  document.getElementById("real-feel").innerHTML = real_feel_json;
+ // document.getElementById("real-feel").innerHTML = real_feel_json;
   document.getElementById("wind").innerHTML = wind_json;
   document.getElementById("location").innerHTML = location_json;
 
