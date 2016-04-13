@@ -1,5 +1,5 @@
         var map;
-        var washington = new google.maps.LatLng(38.904722,-77.016389);
+        var washington = new google.maps.LatLng(38.8330908,-77.235445);
 
         function initialize() {
 
@@ -279,7 +279,7 @@
             ]
 
             var mapOptions = {
-                zoom: 10,
+                zoom: 14,
                 center: washington,
                 mapTypeControlOptions: {
                     mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas']
