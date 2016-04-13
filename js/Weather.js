@@ -39,17 +39,12 @@ jQuery(document).ready(function($) {
 
 
 	  var temp_json = parsed_json['current_observation']['temp_f'];
-		temp_json += "<span>&degF</span>";
+		temp_json += " "+"<span>&degF</span>";
 
 	  var condition_json = parsed_json['current_observation']['weather']; //Parses current conditions
 	  var real_feel_json = "Feels Like " + parsed_json['current_observation']['feelslike_f'] + "&degF"; //Parses how it actually feel
 	  var wind_json = 'Winds are ' + parsed_json['current_observation']['wind_string']; //Winds
 	  var location_json = city + ', ' + state; //Location
-
-	  var condition_json = parsed_json['current_observation']['weather'];
-	  var real_feel_json = "Feels Like " + parsed_json['current_observation']['feelslike_f'] + "&degF";
-	  var wind_json = 'Winds are ' + parsed_json['current_observation']['wind_string'];
-	  var location_json = city + ', ' + state;
 
 
 
