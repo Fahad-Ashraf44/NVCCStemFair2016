@@ -1,13 +1,15 @@
 #location
 {
     text-align: left;
-    border-bottom: 1px solid;
+    border: 1px solid;
     padding-left: 0;
     margin-left: 0;
     width: 50%;
+
 }
 #observation
 {
+    border: 1px solid;
     display: inline-block;
 }
 #temp
@@ -15,6 +17,7 @@
     display: block;
     padding-top: 16%;
     float: left;
+    border: 1px solid;
 }
 #weather-icon
 {
@@ -22,4 +25,10 @@
     display: inline-block;
     width: 50%;
     height: 50%;
+    border: 1px solid;
+}
+
+#wind
+{
+    border: 1px solid;
 }
