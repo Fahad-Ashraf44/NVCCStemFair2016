@@ -25,6 +25,8 @@ text-align: left;
 #weather-icon img
 {
     float: left;
+     -webkit-filter:invert(100%) !important;
+        filter:invert(100%) !important;
 
 height: 10%;
 /*    border: 1px solid;*/
@@ -43,6 +45,8 @@ height: 10%;
     display: inline-block;
   height: 5%;
     float: left;
+     -webkit-filter:invert(100%) !important;
+        filter:invert(100%) !important;
 }
 #wind
 {
