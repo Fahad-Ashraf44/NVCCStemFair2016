@@ -34,3 +34,8 @@ th, td, hr, thead, tbody, .fc-row
 {
     font-size: .5em;
 }
+.fc-today
+{
+    border: solid 1px;
+    color:#2ecc71 ;
+}
