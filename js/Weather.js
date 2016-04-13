@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
 
 	  var condition_json = parsed_json['current_observation']['weather']; //Parses current conditions
 	  var real_feel_json = "Feels Like " + parsed_json['current_observation']['feelslike_f'] + "&degF"; //Parses how it actually feel
-	  var wind_json = 'Winds are ' + parsed_json['current_observation']['wind_string']; //Winds
+	  var wind_json =parsed_json['current_observation']['wind_mph'] + " mph"; //Winds
 	  var location_json = city + ', ' + state; //Location
 
 
