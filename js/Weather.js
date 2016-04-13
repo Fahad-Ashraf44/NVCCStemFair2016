@@ -31,6 +31,9 @@ jQuery(document).ready(function($) {
          else if(parsed_json['current_observation']['weather']=="Overcast"){
                 icon_json= '<img src ="src/Icons/Weather/Cloud.svg"/>';
           }
+          else if(parsed_json['current_observation']['weather']=="Clear"){
+              icon_json = '<img src ="src/Icons/Weather/Sun.svg"/>';
+          }
 
           else{
 
