@@ -5,12 +5,13 @@
     padding-left: 0;
     margin-left: 0;
     width: 50%;
+    display: block;
 
 }
 #observation
 {
     border: 1px solid;
-    display: inline-block;
+    display: block;
 }
 #temp
 {
@@ -19,16 +20,17 @@
     float: left;
     border: 1px solid;
 }
-#weather-icon
+#weather-icon img
 {
     float: right;
-    display: inline-block;
-    width: 50%;
-    height: 50%;
+    display: block;
+height: 20%;
     border: 1px solid;
 }
 
 #wind
 {
     border: 1px solid;
+    display: block;
+
 }
